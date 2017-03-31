@@ -1,8 +1,8 @@
 // Place your FizzBuzz code here.
 
-// Count through 1-20 and firgure out each on is divisible by 3, 5, or both.
-for (i=1; 1<=20; i++){
-  // For each number to the following check:
+// Count through 1-20 and firgure out each one is divisible by 3, 5, or both.
+for (i=1; i<=20; i++){
+  // For each number following check:
 
   // Divisible by 3
   if(i % 3 === 0){
@@ -14,7 +14,7 @@ for (i=1; 1<=20; i++){
       // if only divisible by 3; Print Fizz
       console.log('Fizz');
    }
-  } else if (1 % 5 === 0){
+ } else if (i % 5 === 0){
     // Divisible by 5
     // if so Print Buzz
     console.log('Buzz');
